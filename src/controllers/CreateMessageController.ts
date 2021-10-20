@@ -11,8 +11,7 @@ class CreateMessageController {
     const result = await service.execute(message, user_id);
 
     return response.json(result);
-
   }
 }
 
-export { CreateMessageController } 
+export { CreateMessageController };
